@@ -28,3 +28,17 @@ working with others.
   - Prefer get Over in and KeyError to Handle Missing Dictionary Keys
   - Prefer defaultdict Over setdefault to Handle Missing Items in Internal State
   - Know How to Construct Key-Dependent Default Values with '__missing__'
+
+3. Functions
+> The first organizational tool programmers use in Python is the function. As in other programming languages, functions enable you
+to break large programs into smaller, simpler pieces with names to represent their intent. They improve readability and make code more
+approachable. They allow for reuse and refactoring.
+
+  - Never Unpack More Than Three Variables When Functions Return Multiple Values
+  - Prefer Raising Exceptions to Returning None
+  - Know How Closures Interact with Variable Scope
+  - Reduce Visual Noise with Variable Positional Arguments
+  - Provide Optional Behavior with Keyword Arguments
+  - Use None and Docstrings to Specify Dynamic Default Arguments
+  - Enforce Clarity with Keyword-Only and Positional-Only Arguments
+  - Define Function Decorators with functools.wraps
