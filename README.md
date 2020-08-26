@@ -42,3 +42,17 @@ approachable. They allow for reuse and refactoring.
   - Use None and Docstrings to Specify Dynamic Default Arguments
   - Enforce Clarity with Keyword-Only and Positional-Only Arguments
   - Define Function Decorators with functools.wraps
+
+4. Comprehensions and Generators
+> Many programs are built around processing lists, dictionary key/value pairs, and sets. Python provides a special syntax, called comprehensions, for succinctly iterating through these types and creating derivative data structures. Comprehensions can significantly increase the readability of code performing these common tasks and provide a number of other benefits.
+
+ - Use Comprehensions Instead of map and filter
+ - Avoid More Than Two Control Subexpressions in Comprehensions
+ - Avoid Repeated Work in Comprehensions by Using Assignment Expressions
+ - Consider Generators Instead of Returning Lists
+ - Be Defensive When Iterating Over Arguments
+ - Consider Generator Expressions for Large List Comprehensions
+ - Compose Multiple Generators with yield from
+ - Avoid Injecting Data into Generators with send
+ - Avoid Causing State Transitions in Generators with throw
+ - Consider itertools for Working with Iterators and Generators
