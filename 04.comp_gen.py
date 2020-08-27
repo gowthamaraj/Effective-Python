@@ -25,3 +25,13 @@ class ReadVisits:
 it = (len(x) for x in open('file.txt'))
 print(it)
 print(next(it))
+
+import itertools
+single = itertools.product([1, 2], repeat=3)
+print(*single)
+
+it = itertools.permutations([1, 2, 3, 4], 2)
+print(list(it))
+
+it = itertools.combinations([1, 2, 3, 4], 2)
+print(list(it))
